@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agen Travel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#packages">Our Packages</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <section id="home">
+        <h1>Selamat datang di Agen Travel kami</h1>
+        <p>Kami menawarkan paket wisata terbaik untuk Anda</p>
+    </section>
+
+    <section id="packages">
+        <h2>Paket Wisata Kami</h2>
+        <ul>
+            <li><a href="#">Bali Tour</a></li>
+            <li><a href="#">Lombok Island</a></li>
+            <li><a href="#">Yogyakarta Tour</a></li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h3>Hubungi Kami</h3>
+        <form id="contact-form">
+            <label for="name">Nama:</label>
+            <input type="text" id="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" required>
+
+            <label for="message">Pesan:</label>
+            <textarea id="message" required></textarea>
+
+            <button type="submit">Kirim</button>
+        </form>
+
+        <p id="form-message"></p>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
